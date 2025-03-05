@@ -7,7 +7,7 @@ public class Ejercicio4 {
         System.out.println("Bienvenido al programa de conversiones de magnitudes");
 
         do {
-            System.out.println("Seleccione el tioo de conversion que desea realizar: ");
+            System.out.println("Seleccione el tiopo de conversion que desea realizar: ");
             System.out.println("a. => Millas a Kilometros");
             System.out.println("b. => Kilometros a Millas");
             System.out.println("c. => Celsius a Farenheit");
