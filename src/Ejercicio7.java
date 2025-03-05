@@ -4,7 +4,7 @@ public class Ejercicio7 {
     public static void main(String[] args) {
         Scanner consulta = new Scanner(System.in);
 
-        System.out.print("Ingrese el presupuesto anual del hospital: ");
+        System.out.print("Ingrese el presupuesto anual del hospital en dolares americanos: ");
         double presupuestoTotal = consulta.nextDouble();
 
         double porcentajeGinecologia = 0.40;

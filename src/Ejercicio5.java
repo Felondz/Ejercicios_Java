@@ -20,7 +20,7 @@ public class Ejercicio5 {
 
             switch (seleccion) {
                 case "a":
-                    System.out.println("Ingrese la diagona mayor del rombo en centimetros: ");
+                    System.out.println("Ingrese la diagonal mayor del rombo en centimetros: ");
                     a = consulta.nextDouble();
                     consulta.nextLine();
                     System.out.println("Ingrese la diagonal del rombo menor en centimetros: ");
@@ -48,7 +48,7 @@ public class Ejercicio5 {
                     System.out.println("Ingrese la longitud de la altura del trapecio en centimetros: ");
                     c = consulta.nextDouble();
                     area = Areas.trapecio(a, b, c);
-                    System.out.println("El área del pentágono son " + area + " centimetros cuadrados.\n");
+                    System.out.println("El área del trapecio son " + area + " centimetros cuadrados.\n");
 
                     break;
                 case "d":

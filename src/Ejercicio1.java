@@ -17,7 +17,7 @@ public class Ejercicio1 {
             System.out.println("f. => RUB Rublo Ruso");
             System.out.println("q. => Cerrar programa");
 
-            String moneda = consulta.nextLine().trim();
+            String moneda = consulta.nextLine().trim().toLowerCase();
             if (!moneda.equals("q")) {
                 double cantidad = 0;
                 System.out.println("Cuantos pesos desea cambiar?: ");
@@ -28,7 +28,7 @@ public class Ejercicio1 {
 
                 cantidad = consulta.nextDouble();
                 consulta.nextLine();
-                System.out.println("Ingrese la tasa de cambio actual: ");
+                System.out.println("Ingrese la tasa de cambio actual en valores de pesos: ");
                 double conversor = 0;
                 while (!consulta.hasNextDouble()) {
                     System.out.println("Por favor, ingrese un número válido para la tasa de cambio.");
